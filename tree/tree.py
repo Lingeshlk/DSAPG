@@ -15,7 +15,7 @@ root.left.right = Node(5)
 def inorder(node):
     if node:
         inorder(node.left)
-        print(node.value, end=' ')
+        print(node.value, end=' ')   
 
 def preorder(node):
     if node:
